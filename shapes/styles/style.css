@@ -1,0 +1,107 @@
+
+div.header {
+    background-color: #808080;
+    color: white;
+    height: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: -10px -10px 0px -10px;
+    }
+div.main {
+    border-style: solid;
+    border-width: 4px 0;
+    border-color: black;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -0px -10px 0px -10px;
+    }
+div.footer a { 
+    color: #ffffff;
+    }
+div.footer { 
+    margin-top: 0px;
+    margin: 0px 0px;
+    background-color: #808080;
+    height: 60px;
+    padding: 5px 20px;
+    margin: 0px -10px 0px -10px;
+    }
+div.square {
+    background-color: #F9A602;
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    }
+div.square-border {
+    border-style: solid;
+    border-color: #0000FF;
+    border-width: 12px;
+    background-color: #F9A602;
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    }
+div.circle {
+    background-color: #0000FF;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    }
+div.circle-with-border {
+    border-style: solid;
+    border-color: #F9A602;
+    border-width: 12px;
+    background-color: #0000FF;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    }
+div.square-relative {
+    background-color: #008000;
+    border-style: solid;
+    border-color: #F9A602;
+    border-width: 0px 0px 150px 150px;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    }
+div.circle-square-circle {
+    position: relative;
+    background-color: #0000FF;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    z-index: 1;
+    }
+div.circle-square-square {
+    position: relative;
+    left: -15px;
+    top: -385px;
+    background-color: #008000;
+    height: 250px;
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: -250px;
+    margin-left: 150px;
+    z-index: 2;
+    }
+
+
